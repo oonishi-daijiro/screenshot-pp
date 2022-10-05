@@ -1,0 +1,10 @@
+{
+  "makefile.extensionOutputFolder": "./.vscode",
+  "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+  "files.associations": {
+    "*.ejs": "html",
+    ".*lintrc": "json",
+    "*.toml": "toml",
+    "iostream": "cpp"
+  }
+}

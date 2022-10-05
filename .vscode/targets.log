@@ -1,0 +1,370 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# ����̓t���[�\�t�g�E�F�A�ł�. ���p�����ɂ��Ă̓\�[�X��
+# ������������.
+# ���Ɛ������̖ړI�ւ̓K�����̔@���Ɋւ�炸, ���ۏ؂ł�.
+
+# This program built for i386-pc-mingw32
+ 
+
+# Make �f�[�^�x�[�X�o�� Wed Oct 05 23:50:11 2022
+
+# �ϐ�
+
+# ���ϐ�
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
+# �����ϐ�
+?F = $(notdir $?)
+# �����ϐ�
+<D = $(patsubst %/,%,$(dir $<))
+# ���ϐ�
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# ���ϐ�
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile �ϐ�
+MAKEFLAGS = Rrqp
+# �����ϐ�
+?D = $(patsubst %/,%,$(dir $?))
+# �����ϐ�
+@D = $(patsubst %/,%,$(dir $@))
+# ���ϐ�
+HOMEDRIVE = C:
+# �����ϐ�
+@F = $(notdir $@)
+# �����ϐ�
+^D = $(patsubst %/,%,$(dir $^))
+# makefile �ϐ�
+CURDIR := c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++
+# �f�t�H���g
+SHELL := C:/Program Files/Git/bin/sh.exe
+# ���ϐ�
+WINDIR = C:\WINDOWS
+# ���ϐ�
+VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"3444b02feeb00c9b280875fe5e889674.ja","_translationsConfigFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\3444b02feeb00c9b280875fe5e889674.ja\\tcf.json","_cacheRoot":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\3444b02feeb00c9b280875fe5e889674.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\3444b02feeb00c9b280875fe5e889674.ja\\74b1f979648cc44d385a2286793c226e611f59e7","_corruptedFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\3444b02feeb00c9b280875fe5e889674.ja\\corrupted.info","_languagePackSupport":true}
+# ���ϐ�
+ONEDRIVE = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
+# ���ϐ�
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+# makefile �ϐ� (`makefile', 1 �s�ڂ���)
+MAKEFILE_LIST :=  makefile
+# ���ϐ�
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ���ϐ�
+TMP = C:\Users\OONISH~1\AppData\Local\Temp
+# ���ϐ�
+PROGRAMW6432 = C:\Program Files
+# ���ϐ�
+PROGRAMDATA = C:\ProgramData
+# ���ϐ�
+VSCODE_CWD = C:\Users\oonishi_daijiro\Desktop\Main\works\Programing\Projects\screenshot++
+# ���ϐ�
+PATH = C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin;C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PowerShell\7\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\;C:\Users\oonishi_daijiro\.cargo\bin;C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\;C:\Program Files\Git\bin;C:\Users\oonishi_daijiro\Desktop\Main\localApps\ProgramFiles\MyTools\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\curl-7.71.1-win64-mingw\curl-7.71.1-win64-mingw\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Users\oonishi_daijiro\Desktop\Main\pathForCLItools\SDK-Platform-Tools;C:\Users\oonishi_daijiro\AppData\Roaming\npm;C:\Users\oonishi_daijiro\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\GoLand 2021.3.2\bin;C:\Program Files (x86)\GitHub CLI\;C:\Program Files\mingw64\bin;C:\Users\oonishi_daijiro\go\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\oonishi_daijiro\.dotnet\tools;C:\Users\oonishi_daijiro\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\oonishi_daijiro\go\bin;;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps
+# ���ϐ�
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# ���ϐ�
+CHOCOLATEYLASTPATHUPDATE = 132388465551785663
+# ���ϐ�
+PROCESSOR_ARCHITECTURE = x86
+# ���ϐ�
+USERPROFILE = C:\Users\oonishi_daijiro
+# ���ϐ�
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# ���ϐ�
+ALLUSERSPROFILE = C:\ProgramData
+# ���ϐ�
+GOPATH = C:\Users\oonishi_daijiro\go
+# ���ϐ�
+NUMBER_OF_PROCESSORS = 12
+# ���ϐ�
+ELECTRON_RUN_AS_NODE = 1
+# �f�t�H���g
+.FEATURES := target-specific order-only second-expansion else-if archives
+# ���ϐ�
+PROCESSOR_LEVEL = 23
+# �����ϐ�
+%F = $(notdir $%)
+# ���ϐ�
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8964_TWIOVROAJHNKQJWF
+# ���ϐ�
+COMPUTERNAME = DAIJIRO-DESKTOP
+# ���ϐ�
+PROGRAMFILES = C:\Program Files (x86)
+# ���ϐ�
+GOLAND = C:\Program Files\JetBrains\GoLand 2021.3.2\bin;
+# ���ϐ�
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# ���ϐ�
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���ϐ�
+WT_SESSION = 1ad6b5a2-a1e4-4a35-800e-c17fd17efcca
+# ���ϐ�
+USERNAME = oonishi_daijiro
+# ���ϐ�
+PUBLIC = C:\Users\Public
+# ���ϐ�
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# ���ϐ�
+VSCODE_CLI = 1
+# ���ϐ�
+VSCODE_CODE_CACHE_PATH = C:\Users\oonishi_daijiro\AppData\Roaming\Code\CachedData\74b1f979648cc44d385a2286793c226e611f59e7
+# ���ϐ�
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# ���ϐ�
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# ���ϐ�
+LOGONSERVER = \\DAIJIRO-DESKTOP
+# ���ϐ�
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# ���ϐ�
+USERDOMAIN = DAIJIRO-DESKTOP
+# �f�t�H���g
+MAKE = $(MAKE_COMMAND)
+# �f�t�H���g
+MAKECMDGOALS := all
+# ���ϐ�
+LIBPATH = C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;
+# ���ϐ�
+ONEDRIVECOMMERCIAL = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
+# �f�t�H���g
+MAKE_VERSION := 3.81
+# makefile �ϐ�
+.DEFAULT_GOAL := lib
+# ���ϐ�
+INCLUDE = C:\Program Files\mingw64\x86_64-w64-mingw32\include;C:\Program Files\mingw64\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++;
+# ���ϐ�
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# �����ϐ�
+%D = $(patsubst %/,%,$(dir $%))
+# ���ϐ�
+LOCALAPPDATA = C:\Users\oonishi_daijiro\AppData\Local
+# ���ϐ�
+PSMODULEPATH = C:\Users\oonishi_daijiro\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# �f�t�H���g
+MAKE_COMMAND := make.exe
+# ���ϐ�
+PROCESSOR_ARCHITEW6432 = AMD64
+# �f�t�H���g
+.VARIABLES := 
+# �����ϐ�
+*F = $(notdir $*)
+# ���ϐ�
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+# ���ϐ�
+OS = Windows_NT
+# ���ϐ�
+VSCODE_IPC_HOOK = \\.\pipe\755a8193c0e871585bc798da6a3655c8-1.71.2-main-sock
+# ���ϐ�
+HOMEPATH = \Users\oonishi_daijiro
+# ���ϐ�
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# ���ϐ�
+PROMPT = $P$G
+# ���ϐ�
+MFLAGS = -Rrqp
+# �����ϐ�
+*D = $(patsubst %/,%,$(dir $*))
+# ���ϐ�
+SYSTEMROOT = C:\WINDOWS
+# �����ϐ�
++D = $(patsubst %/,%,$(dir $+))
+# �����ϐ�
++F = $(notdir $+)
+# ���ϐ�
+APPDATA = C:\Users\oonishi_daijiro\AppData\Roaming
+# ���ϐ�
+TEMP = C:\Users\OONISH~1\AppData\Local\Temp
+# ���ϐ�
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# ���ϐ�
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# �f�t�H���g
+MAKEFILES := 
+# �����ϐ�
+<F = $(notdir $<)
+# ���ϐ�
+DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+# ���ϐ�
+LC_ALL = C
+# �����ϐ�
+^F = $(notdir $^)
+# �f�t�H���g
+SUFFIXES := 
+# ���ϐ�
+SYSTEMDRIVE = C:
+# ���ϐ�
+SESSIONNAME = Console
+# ���ϐ�
+PROCESSOR_REVISION = 7100
+# ���ϐ�
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# ���ϐ�
+MAKELEVEL := 0
+# ���ϐ�
+LANG = C
+# ���ϐ�
+GITLOCALREPOSITORY = D:\Data\Git\repository
+# ���ϐ�
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# ���ϐ�
+VSCODE_PID = 8964
+# ���ϐ�
+USERDOMAIN_ROAMINGPROFILE = DAIJIRO-DESKTOP
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=99/1024=10%, Rehash=0, Collisions=12/118=10%
+
+# Pattern-specific Variable Values
+
+# �p�^�[���w��ϐ��̒l�Ȃ�.
+
+# �f�B���N�g��
+
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1639208808): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1662219003): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# %SYSTEMROOT%\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1664338478): 31 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1664338802): 154 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# . (key c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++, mtime 1664981410): 19 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1640014958): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1600746632): 10 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1594373561): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1663318690): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1637384727): 471 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1639208654): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# %SystemRoot%\system32: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1584597259): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows (key C:/Windows, mtime 1585296127): 124 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/, mtime 1657547375): 19 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Git\bin (key C:/Program Files/Git/bin, mtime 1603972912): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (�����܂ł�).
+# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1659445103): 14 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1663310680): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1603972938): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1664977033): 3070 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# %SystemRoot%\System32\Wbem: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Users\oonishi_daijiro\.cargo\bin (key C:/Users/oonishi_daijiro/.cargo/bin, mtime 1660586034): 15 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# %SystemRoot%: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\ (key C:/Users/oonishi_daijiro/AppData/Local/Microsoft/WindowsApps/, mtime 1664951699): 58 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1633520038): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+
+# 4065 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (31 �̃f�B���N�g����).
+
+# �Öك��[��
+
+# �Öك��[���Ȃ�.
+
+# �t�@�C��
+
+# �^�[�Q�b�g�ł͂���܂���:
+all:
+#  �R�}���h���C���^�[�Q�b�g.
+#  �Öك��[���̒T�����s���܂���.
+#  �t�@�C�������݂��܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �^�[�Q�b�g�ł͂���܂���:
+.DEFAULT:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+win32SharedMem/win32SharedMem.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+screenshotpp.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+makefile:
+#  �Öك��[���̒T�����s���܂���.
+#  �ŏI�C�� 2022-06-25 12:16:40
+#  �t�@�C���͍X�V����Ă��܂�.
+#  �X�V�ɐ������܂���.
+# �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# �^�[�Q�b�g�ł͂���܂���:
+win32SharedMem.obj:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+clipboard.obj:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+lib: screenshot/screenshot.cpp clipboard/clipboard.cpp win32SharedMem/win32SharedMem.cpp
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 2 �s�ڂ���):
+	cl /c ./screenshot/screenshot.cpp
+	cl /c ./clipboard/clipboard.cpp
+	cl /c ./win32SharedMem/win32SharedMem.cpp
+	
+
+# �^�[�Q�b�g�ł͂���܂���:
+.SUFFIXES:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+screenshot/screenshot.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+clipboard/clipboard.cpp:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+# �^�[�Q�b�g�ł͂���܂���:
+screenshot.obj:
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+
+scrnshotpp: screenshotpp.cpp clipboard.obj screenshot.obj win32SharedMem.obj
+#  �Öك��[���̒T���͍s���܂���ł���.
+#  �C���������`�F�b�N����邱�Ƃ͂���܂���.
+#  �t�@�C���͍X�V����Ă��܂���.
+#  ���s����R�}���h (`makefile', 6 �s�ڂ���):
+	cl screenshotpp.cpp clipboard.obj screenshot.obj win32SharedMem.obj /EHsc /link /SUBSYSTEM:WINDOWS
+	./screenshotpp.exe
+	
+
+# �t�@�C���n�b�V���e�[�u���̏��:
+# Load=13/1024=1%, Rehash=0, Collisions=0/31=0%
+# VPATH �T���p�X
+
+# `vpath' �T���p�X�͂���܂���
+
+# ��ʂ� (`VPATH' �ϐ�) �T���p�X�Ȃ�.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+
+# Make �f�[�^�x�[�X�I�� Wed Oct 05 23:50:11 2022
+
+ 
+make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
+

@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: �f�B���N�g�� `c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++' �ɓ���܂�
+cl /c ./screenshot/screenshot.cpp
+cl /c ./clipboard/clipboard.cpp
+cl /c ./win32SharedMem/win32SharedMem.cpp
+make.exe: �f�B���N�g�� `c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++' ����o�܂�
+ 
