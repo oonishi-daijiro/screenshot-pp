@@ -9,10 +9,10 @@
 
 void registarHotkey()
 {
-	RegisterHotKey(NULL, 810, MOD_SHIFT, VK_SNAPSHOT);
+	RegisterHotKey(NULL, CAPTURE, MOD_SHIFT, VK_SNAPSHOT);
 }
 
-void setupWindow()
+HWND setupWindow()
 {
 	HINSTANCE hInstance = GetModuleHandle(NULL);
 	HWND own = CreateWindow(
@@ -20,7 +20,7 @@ void setupWindow()
 			SW_HIDE,
 			0, 0, 0, 0, NULL, NULL,
 			hInstance, NULL);
-	return;
+	return own;
 }
 
 int WINAPI WinMain(
@@ -29,17 +29,30 @@ int WINAPI WinMain(
 		LPSTR lpCmdLine,
 		int nCmdShow)
 {
-	setupWindow();
+	HWND own = setupWindow();
+	SharedMemory<HWND> simultaneousWindow = SharedMemory<HWND>("simultaneous_screenshotpp");
+	// AllocConsole();
+	// freopen("CONOUT$", "w", stdout);
+
+	if (!simultaneousWindow.isOwnner())
+	{
+		int isRequiredClose = MessageBox(NULL, TEXT("This application is already launched. Wanna close?"), TEXT("Notification"), MB_YESNO | MB_ICONQUESTION);
+		if (isRequiredClose == IDYES)
+		{
+			HWND simultaneousWindowHandle = (HWND)simultaneousWindow;
+			PostMessage(simultaneousWindowHandle, WM_CLOSE, QUIT, 0);
+		}
+		return 0;
+	}
+	simultaneousWindow = own;
+
 	registarHotkey();
 	tagMSG message;
 	while (true)
 	{
 		BOOL quit = GetMessage(&message, NULL, 0, 0);
-		if (quit == WM_QUIT)
-		{
-			break;
-		}
-		else if (quit == -1)
+		printf("message:%d", message.wParam);
+		if (quit == WM_QUIT || quit == -1)
 		{
 			break;
 		}
@@ -55,5 +68,6 @@ int WINAPI WinMain(
 		}
 		DispatchMessage(&message);
 	}
+	UnregisterHotKey(NULL, CAPTURE);
 	return 0;
 }
