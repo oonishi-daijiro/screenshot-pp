@@ -9,7 +9,7 @@
 
 void registarHotkey()
 {
-	RegisterHotKey(NULL, CAPTURE, MOD_SHIFT, VK_SNAPSHOT);
+	RegisterHotKey(NULL, CAPTURE, MOD_ALT, VK_SNAPSHOT);
 }
 
 HWND setupWindow()
@@ -31,8 +31,6 @@ int WINAPI WinMain(
 {
 	HWND own = setupWindow();
 	SharedMemory<HWND> simultaneousWindow = SharedMemory<HWND>("simultaneous_screenshotpp");
-	// AllocConsole();
-	// freopen("CONOUT$", "w", stdout);
 
 	if (!simultaneousWindow.isOwnner())
 	{

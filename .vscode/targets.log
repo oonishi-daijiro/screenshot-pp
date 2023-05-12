@@ -8,18 +8,24 @@ make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --quest
 # This program built for i386-pc-mingw32
  
 
-# Make �f�[�^�x�[�X�o�� Sat Oct 08 01:56:10 2022
+# Make �f�[�^�x�[�X�o�� Sat May 13 00:17:33 2023
 
 # �ϐ�
 
-# ���ϐ�
-POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Home
-# �����ϐ�
-?F = $(notdir $?)
 # �����ϐ�
 <D = $(patsubst %/,%,$(dir $<))
+# �����ϐ�
+?F = $(notdir $?)
+# ���ϐ�
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# ���ϐ�
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# ���ϐ�
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
 # makefile �ϐ�
 MAKEFLAGS = Rrqp
+# ���ϐ�
+COMMANDPROMPTTYPE = Native
 # �����ϐ�
 ?D = $(patsubst %/,%,$(dir $?))
 # �����ϐ�
@@ -31,65 +37,94 @@ HOMEDRIVE = C:
 # �����ϐ�
 ^D = $(patsubst %/,%,$(dir $^))
 # makefile �ϐ�
-CURDIR := c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++
-# �f�t�H���g
-SHELL := C:/Program Files/Git/bin/sh.exe
+CURDIR := c:/Users/daiji/Main/code/projects/ScreenshotPlus
+# ���ϐ�
+__VSCMD_PREINIT_INCLUDE = C:\MinGW\include
+# ���ϐ�
+WINDOWSSDKVERSION = 10.0.22000.0\
 # ���ϐ�
 WINDIR = C:\WINDOWS
 # ���ϐ�
-VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"770989944741f2e7ca641a66ffa26c6c.ja","_translationsConfigFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\770989944741f2e7ca641a66ffa26c6c.ja\\tcf.json","_cacheRoot":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\770989944741f2e7ca641a66ffa26c6c.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\770989944741f2e7ca641a66ffa26c6c.ja\\64bbfbf67ada9953918d72e1df2f4d8e537d340e","_corruptedFile":"C:\\Users\\oonishi_daijiro\\AppData\\Roaming\\Code\\clp\\770989944741f2e7ca641a66ffa26c6c.ja\\corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ja","osLocale":"ja","availableLanguages":{"*":"ja"},"_languagePackId":"c6cbe84283a2fe17fea7e4a98e48ff4e.ja","_translationsConfigFile":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\c6cbe84283a2fe17fea7e4a98e48ff4e.ja\\tcf.json","_cacheRoot":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\c6cbe84283a2fe17fea7e4a98e48ff4e.ja","_resolvedLanguagePackCoreLocation":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\c6cbe84283a2fe17fea7e4a98e48ff4e.ja\\b3e4e68a0bc097f0ae7907b217c1119af9e03435","_corruptedFile":"C:\\Users\\daiji\\AppData\\Roaming\\Code\\clp\\c6cbe84283a2fe17fea7e4a98e48ff4e.ja\\corrupted.info","_languagePackSupport":true}
 # ���ϐ�
-ONEDRIVE = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
+ONEDRIVE = C:\Users\daiji\OneDrive - �x�R������w
 # ���ϐ�
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
 # makefile �ϐ� (`makefile', 1 �s�ڂ���)
 MAKEFILE_LIST :=  makefile
 # ���ϐ�
-TMP = C:\Users\OONISH~1\AppData\Local\Temp
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# ���ϐ�
+__DOTNET_PREFERRED_BITNESS = 64
+# ���ϐ�
+VSINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\
+# ���ϐ�
+TMP = C:\Users\daiji\AppData\Local\Temp
+# ���ϐ�
+FRAMEWORK40VERSION = v4.0
 # ���ϐ�
 PROGRAMW6432 = C:\Program Files
 # ���ϐ�
 PROGRAMDATA = C:\ProgramData
 # ���ϐ�
-VSCODE_CWD = C:\Users\oonishi_daijiro\Desktop\Main\works\Programing\Projects\screenshot++
+VSCMD_ARG_TGT_ARCH = x64
 # ���ϐ�
-PATH = C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin;C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\ProgramData\chocolatey\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\PowerShell\7\;C:\Program Files\nodejs\;C:\Program Files\Go\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\;C:\Users\oonishi_daijiro\.cargo\bin;C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\;C:\Program Files\Git\bin;C:\Users\oonishi_daijiro\Desktop\Main\localApps\ProgramFiles\MyTools\bin;C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files\ImageMagick-7.0.10-Q16-HDRI;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\curl-7.71.1-win64-mingw\curl-7.71.1-win64-mingw\bin;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Users\oonishi_daijiro\Desktop\Main\pathForCLItools\SDK-Platform-Tools;C:\Users\oonishi_daijiro\AppData\Roaming\npm;C:\Users\oonishi_daijiro\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\GoLand 2021.3.2\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\oonishi_daijiro\go\bin;C:\Program Files (x86)\GnuWin32\bin;C:\Users\oonishi_daijiro\.dotnet\tools;C:\Users\oonishi_daijiro\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\oonishi_daijiro\go\bin;C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps;C:\Users\oonishi_daijiro\Desktop\Main\works\Programing\Projects\SharedMemory;C:\MinGW\bin;
+VSCODE_CWD = C:\Users\daiji\Main\code\projects\ScreenshotPlus
+# ���ϐ�
+PATH = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\bin\Roslyn;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Team Tools\Performance Tools\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Team Tools\Performance Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console;C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\daiji\AppData\Local\Microsoft\WindowsApps;C:\Users\daiji\AppData\Roaming\npm;C:\Users\daiji\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\daiji\Main\LocalApps\MyTools\bin;C:\Users\daiji\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chrome �A�v��;C:\Users\daiji\go\bin;C:\Users\daiji\Main\path;C:\Users\daiji\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe
+# ���ϐ�
+FRAMEWORKDIR64 = C:\Windows\Microsoft.NET\Framework64\
 # ���ϐ�
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # ���ϐ�
-CHOCOLATEYLASTPATHUPDATE = 132388465551785663
+VS170COMNTOOLS = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\
+# ���ϐ�
+VISUALSTUDIOVERSION = 17.0
 # ���ϐ�
 PROCESSOR_ARCHITECTURE = x86
 # ���ϐ�
-USERPROFILE = C:\Users\oonishi_daijiro
+USERPROFILE = C:\Users\daiji
 # ���ϐ�
-CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+FRAMEWORKDIR = C:\Windows\Microsoft.NET\Framework64\
 # ���ϐ�
 ALLUSERSPROFILE = C:\ProgramData
 # ���ϐ�
-GOPATH = C:\Users\oonishi_daijiro\go
+GOPATH = C:\Users\daiji\go
 # ���ϐ�
-NUMBER_OF_PROCESSORS = 12
+WINDOWSSDK_EXECUTABLEPATH_X64 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\
+# ���ϐ�
+FRAMEWORKVERSION64 = v4.0.30319
+# ���ϐ�
+NUMBER_OF_PROCESSORS = 8
 # ���ϐ�
 ELECTRON_RUN_AS_NODE = 1
+# ���ϐ�
+LIB = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\lib\x64;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\lib\um\x64;C:\Program Files (x86)\Windows Kits\10\lib\10.0.22000.0\ucrt\x64;C:\Program Files (x86)\Windows Kits\10\\lib\10.0.22000.0\\um\x64
 # �f�t�H���g
 .FEATURES := target-specific order-only second-expansion else-if archives
-# ���ϐ�
-PROCESSOR_LEVEL = 23
 # �����ϐ�
 %F = $(notdir $%)
 # ���ϐ�
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12020_ZAJOXPETEFSAAGRH
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_12300_CBRSHRRVVTCDWHNR
 # ���ϐ�
-COMPUTERNAME = DAIJIRO-DESKTOP
+FSHARPINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools
+# ���ϐ�
+EFC_6704 = 1
+# ���ϐ�
+ 
+__VSCMD_PREINIT_PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\Go\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\daiji\AppData\Local\Microsoft\WindowsApps;C:\Users\daiji\AppData\Roaming\npm;C:\Users\daiji\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\daiji\Main\LocalApps\MyTools\bin;C:\Users\daiji\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chrome �A�v��;C:\Users\daiji\go\bin;C:\Users\daiji\Main\path;C:\Users\daiji\.dotnet\tools;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;
+# ���ϐ�
+COMPUTERNAME = ONISHIDAIJIRO
 # ���ϐ�
 PROGRAMFILES = C:\Program Files (x86)
 # ���ϐ�
-GOLAND = C:\Program Files\JetBrains\GoLand 2021.3.2\bin;
+VCTOOLSINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\
 # ���ϐ�
 DRIVERDATA = C:\Windows\System32\Drivers\DriverData
 # ���ϐ�
 ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# ���ϐ�
+WT_SESSION = 27edc113-4d18-40d9-9322-6d1376468936
 # ���ϐ�
 USERNAME = oonishi_daijiro
 # ���ϐ�
@@ -97,55 +132,81 @@ PUBLIC = C:\Users\Public
 # ���ϐ�
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # ���ϐ�
-VSCODE_CODE_CACHE_PATH = C:\Users\oonishi_daijiro\AppData\Roaming\Code\CachedData\64bbfbf67ada9953918d72e1df2f4d8e537d340e
+WINDOWSSDK_EXECUTABLEPATH_X86 = C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\
+# ���ϐ�
+VSCODE_CLI = 1
+# ���ϐ�
+VSCODE_CODE_CACHE_PATH = C:\Users\daiji\AppData\Roaming\Code\CachedData\b3e4e68a0bc097f0ae7907b217c1119af9e03435
+# ���ϐ�
+VSCMD_VER = 17.5.5
+# ���ϐ�
+WINDOWSSDKVERBINPATH = C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\
 # ���ϐ�
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # ���ϐ�
 COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # ���ϐ�
-LOGONSERVER = \\DAIJIRO-DESKTOP
+LOGONSERVER = \\ONISHIDAIJIRO
+# �����ϐ�
++F = $(notdir $+)
 # ���ϐ�
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # ���ϐ�
-USERDOMAIN = DAIJIRO-DESKTOP
+USERDOMAIN = ONISHIDAIJIRO
+# ���ϐ�
+VCIDEINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VC\
 # �f�t�H���g
 MAKE = $(MAKE_COMMAND)
 # �f�t�H���g
 MAKECMDGOALS := all
 # ���ϐ�
-LIBPATH = C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;
+LIBPATH = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\ATLMFC\lib\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\lib\x64;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\lib\x86\store\references;C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.22000.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.22000.0;C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 # ���ϐ�
-ONEDRIVECOMMERCIAL = C:\Users\oonishi_daijiro\OneDrive - �x�R������w
+ONEDRIVECOMMERCIAL = C:\Users\daiji\OneDrive - �x�R������w
+# ���ϐ�
+VSCODE_CRASH_REPORTER_SANDBOXED_HINT = 1
 # �f�t�H���g
 MAKE_VERSION := 3.81
 # makefile �ϐ�
 .DEFAULT_GOAL := lib
 # ���ϐ�
-INCLUDE = C:\Program Files\mingw64\x86_64-w64-mingw32\include;C:\Program Files\mingw64\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include;C:\Program Files\mingw64\lib\gcc\x86_64-w64-mingw32\8.1.0\include\c++;
+INCLUDE = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um;C:\MinGW\include
+# ���ϐ�
+UCRTVERSION = 10.0.22000.0
+# ���ϐ�
+FRAMEWORKVERSION = v4.0.30319
 # ���ϐ�
 PROGRAMFILES(X86) = C:\Program Files (x86)
 # �����ϐ�
 %D = $(patsubst %/,%,$(dir $%))
 # ���ϐ�
-LOCALAPPDATA = C:\Users\oonishi_daijiro\AppData\Local
+LOCALAPPDATA = C:\Users\daiji\AppData\Local
 # ���ϐ�
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Users\daiji\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
 # �f�t�H���g
 MAKE_COMMAND := make.exe
 # ���ϐ�
+VCTOOLSVERSION = 14.35.32215
+# ���ϐ�
 PROCESSOR_ARCHITEW6432 = AMD64
+# ���ϐ�
+EXTERNAL_INCLUDE = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\include;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\ATLMFC\include;C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Auxiliary\VS\include;C:\Program Files (x86)\Windows Kits\10\include\10.0.22000.0\ucrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\um;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\shared;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\winrt;C:\Program Files (x86)\Windows Kits\10\\include\10.0.22000.0\\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um
 # �f�t�H���g
 .VARIABLES := 
 # �����ϐ�
 *F = $(notdir $*)
 # ���ϐ�
-PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 113 Stepping 0, AuthenticAMD
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 140 Stepping 1, GenuineIntel
 # ���ϐ�
 OS = Windows_NT
 # ���ϐ�
-VSCODE_IPC_HOOK = \\.\pipe\755a8193c0e871585bc798da6a3655c8-1.72.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\96f297426d6b21d8132f1144f50a2827-1.78.2-main-sock
 # ���ϐ�
-HOMEPATH = \Users\oonishi_daijiro
+__DOTNET_ADD_64BIT = 1
+# ���ϐ�
+DEVENVDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\
+# ���ϐ�
+HOMEPATH = \Users\daiji
 # ���ϐ�
 COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
 # ���ϐ�
@@ -158,22 +219,42 @@ MFLAGS = -Rrqp
 SYSTEMROOT = C:\WINDOWS
 # �����ϐ�
 +D = $(patsubst %/,%,$(dir $+))
-# �����ϐ�
-+F = $(notdir $+)
 # ���ϐ�
-APPDATA = C:\Users\oonishi_daijiro\AppData\Roaming
+VSCODE_L10N_BUNDLE_LOCATION = file:///c%3A/Users/daiji/.vscode/extensions/ms-ceintl.vscode-language-pack-ja-1.78.2023051009/translations/extensions/vscode.json-language-features.i18n.json
+# �f�t�H���g
+SHELL := sh.exe
 # ���ϐ�
-TEMP = C:\Users\OONISH~1\AppData\Local\Temp
+WINDOWSSDKDIR = C:\Program Files (x86)\Windows Kits\10\
+# ���ϐ�
+APPDATA = C:\Users\daiji\AppData\Roaming
+# ���ϐ�
+VSCMD_ARG_HOST_ARCH = x64
+# ���ϐ�
+TEMP = C:\Users\daiji\AppData\Local\Temp
+# ���ϐ�
+WT_PROFILE_ID = {f4482ab2-1710-5d48-88b6-6ac49710f71f}
 # ���ϐ�
 COMSPEC = C:\WINDOWS\system32\cmd.exe
+# ���ϐ�
+VCINSTALLDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\
 # �f�t�H���g
 MAKEFILES := 
+# ���ϐ�
+EXTENSIONSDKDIR = C:\Program Files (x86)\Microsoft SDKs\Windows Kits\10\ExtensionSDKs
+# ���ϐ�
+NETFXSDKDIR = C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\
 # �����ϐ�
 <F = $(notdir $<)
 # ���ϐ�
-DXSDK_DIR = C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\
+VCTOOLSREDISTDIR = C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Redist\MSVC\14.34.31931\
+# ���ϐ�
+WINDOWSSDKBINPATH = C:\Program Files (x86)\Windows Kits\10\bin\
 # ���ϐ�
 LC_ALL = C
+# ���ϐ�
+WINDOWSLIBPATH = C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.22000.0;C:\Program Files (x86)\Windows Kits\10\References\10.0.22000.0
+# ���ϐ�
+VSCMD_ARG_APP_PLAT = Desktop
 # �����ϐ�
 ^F = $(notdir $^)
 # �f�t�H���g
@@ -183,21 +264,25 @@ SYSTEMDRIVE = C:
 # ���ϐ�
 SESSIONNAME = Console
 # ���ϐ�
-PROCESSOR_REVISION = 7100
+PROCESSOR_REVISION = 8c01
 # ���ϐ�
-VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+WINDOWSSDKLIBVERSION = 10.0.22000.0\
 # ���ϐ�
 MAKELEVEL := 0
 # ���ϐ�
+UNIVERSALCRTSDKDIR = C:\Program Files (x86)\Windows Kits\10\
+# ���ϐ�
 LANG = C
 # ���ϐ�
-GITLOCALREPOSITORY = D:\Data\Git\repository
+PROCESSOR_LEVEL = 6
 # ���ϐ�
-VSCODE_PID = 12020
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
 # ���ϐ�
-USERDOMAIN_ROAMINGPROFILE = DAIJIRO-DESKTOP
+VSCODE_PID = 12300
+# ���ϐ�
+USERDOMAIN_ROAMINGPROFILE = ONISHIDAIJIRO
 # �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
-# Load=92/1024=9%, Rehash=0, Collisions=12/111=11%
+# Load=134/1024=13%, Rehash=0, Collisions=15/154=10%
 
 # Pattern-specific Variable Values
 
@@ -205,39 +290,53 @@ USERDOMAIN_ROAMINGPROFILE = DAIJIRO-DESKTOP
 
 # �f�B���N�g��
 
-# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1639208808): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1662219003): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# %SYSTEMROOT%\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1664338478): 31 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1664338802): 154 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# . (key c:/Users/oonishi_daijiro/Desktop/Main/works/Programing/Projects/screenshot++, mtime 1665155795): 18 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1640014958): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1600746632): 10 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1594373561): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1663318690): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# %SYSTEMROOT%\System32\WindowsPowerShell\v1.0\: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files\PowerShell\7\ (key C:/Program Files/PowerShell/7/, mtime 1637384727): 471 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files (x86)\Common Files\Oracle\Java\javapath (key C:/Program Files (x86)/Common Files/Oracle/Java/javapath, mtime 1639208654): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# %SystemRoot%\system32: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 17\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1584597259): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows (key C:/Windows, mtime 1585296127): 124 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/, mtime 1657547375): 19 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\Git\bin (key C:/Program Files/Git/bin, mtime 1603972912): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (�����܂ł�).
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1659445103): 14 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Users\oonishi_daijiro\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/oonishi_daijiro/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1665079958): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Users\oonishi_daijiro\Desktop\Main\minecraft\MultiPlayServer\JDK 8\bin: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1603972938): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Windows\system32 (key C:/Windows/system32, mtime 1665156989): 3070 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# %SystemRoot%\System32\Wbem: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Users\oonishi_daijiro\.cargo\bin (key C:/Users/oonishi_daijiro/.cargo/bin, mtime 1660586034): 15 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# %SystemRoot%: ��Ԃ𒲂ׂ��܂���ł���.
-# C:\Users\oonishi_daijiro\AppData\Local\Microsoft\WindowsApps\ (key C:/Users/oonishi_daijiro/AppData/Local/Microsoft/WindowsApps/, mtime 1665158715): 58 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
-# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1633520038): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# : ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1683525799): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\Main\LocalApps\MyTools\bin (key C:/Users/daiji/Main/LocalApps/MyTools/bin, mtime 1681097266): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Go\bin (key C:/Program Files/Go/bin, mtime 1661967092): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\go\bin (key C:/Users/daiji/go/bin, mtime 1673838101): 11 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\ (key C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/, mtime 1664784723): 33 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1664784718): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\windows\System32\WindowsPowerShell\v1.0\ (key C:/windows/System32/WindowsPowerShell/v1.0/, mtime 1682485227): 33 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\windows\System32\Wbem (key C:/windows/System32/Wbem, mtime 1682485227): 155 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# . (key c:/Users/daiji/Main/code/projects/ScreenshotPlus, mtime 1666148058): 16 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TeamFoundation/Team Explorer, mtime 1683525439): 158 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja, mtime 1683526025): 3 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\\MSBuild\Current\Bin\amd64 (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/Bin/amd64, mtime 1683525441): 95 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\Windows Kits\10\bin\\x64 (key C:/Program Files (x86)/Windows Kits/10/bin/x64, mtime 1683525869): 4 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1647674113): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64 (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.35.32215/bin/HostX64/x64, mtime 1683526028): 70 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Windows\Microsoft.NET\Framework64\v4.0.30319 (key C:/Windows/Microsoft.NET/Framework64/v4.0.30319, mtime 1683872138): 411 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1683903486): 57 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Team Tools\Performance Tools (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Team Tools/Performance Tools, mtime 1683525401): 33 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin, mtime 1683526020): 6 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\windows\System32\OpenSSH\: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\bin\Roslyn (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/MSBuild/Current/bin/Roslyn, mtime 1683525416): 47 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\windows (key C:/windows, mtime 1682485269): 111 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Team Tools\Performance Tools\x64 (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Team Tools/Performance Tools/x64, mtime 1683525400): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/daiji/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1683864374): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VC\Linux\bin\ConnectionManagerExe (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/VC/Linux/bin/ConnectionManagerExe, mtime 1683525505): 7 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\Windows Kits\10\bin\10.0.22000.0\\x64 (key C:/Program Files (x86)/Windows Kits/10/bin/10.0.22000.0/x64, mtime 1683525956): 203 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\AppData\Roaming\npm (key C:/Users/daiji/AppData/Roaming/npm, mtime 1681107574): 21 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\.dotnet\tools: ��Ԃ𒲂ׂ��܂���ł���.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1683525614): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\Main\path (key C:/Users/daiji/Main/path, mtime 1669599870): 3 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Chrome �A�v�� (key C:/Users/daiji/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Chrome �A�v��, mtime 1682995179): 13 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\TestWindow (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/TestWindow, mtime 1683526018): 55 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\ (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/, mtime 1683526015): 329 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1655272145): 8 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\windows\system32 (key C:/windows/system32, mtime 1683904185): 2896 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\Extensions\Microsoft\CodeCoverage.Console (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/Extensions/Microsoft/CodeCoverage.Console, mtime 1683525325): 37 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\Tools\ (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/Tools/, mtime 1683525681): 52 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Users\daiji\AppData\Local\Microsoft\WindowsApps (key C:/Users/daiji/AppData/Local/Microsoft/WindowsApps, mtime 1683872851): 50 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\CommonExtensions\Microsoft\FSharp\Tools (key C:/Program Files/Microsoft Visual Studio/2022/Enterprise/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools, mtime 1683525625): 69 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files\Microsoft Visual Studio\2022\Enterprise\Common7\IDE\VC\VCPackages (key C:/Program Files/Microsoft Vi 
+make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
 
-# 4064 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (31 �̃f�B���N�g����).
+sual Studio/2022/Enterprise/Common7/IDE/VC/VCPackages, mtime 1683526027): 52 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+# C:\Program Files (x86)\GnuWin32\bin (key C:/Program Files (x86)/GnuWin32/bin, mtime 1683902873): 5 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C����.
+
+# 5109 �̃t�@�C��, 0 �̓K�p�s�\�t�@�C���� (42 �̃f�B���N�g����).
 
 # �Öك��[��
 
@@ -275,7 +374,7 @@ screenshotpp.cpp:
 # �^�[�Q�b�g�ł͂���܂���:
 makefile:
 #  �Öك��[���̒T�����s���܂���.
-#  �ŏI�C�� 2022-10-07 23:54:40
+#  �ŏI�C�� 2022-10-19 11:53:07
 #  �t�@�C���͍X�V����Ă��܂�.
 #  �X�V�ɐ������܂���.
 # �ϐ��Z�b�g�̃n�b�V���e�[�u���̏��:
@@ -331,8 +430,6 @@ clipboard/clipboard.cpp:
 # strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
 # strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
 
-# Make �f�[�^�x�[�X�I�� Sat Oct 08 01:56:10 2022
+# Make �f�[�^�x�[�X�I�� Sat May 13 00:17:33 2023
 
  
-make.exe: *** �^�[�Q�b�g `all' �� make ���郋�[��������܂���.  ���~.
-

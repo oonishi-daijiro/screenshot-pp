@@ -1,13 +1,14 @@
 #include "screenshot.hpp"
 
-
-HBITMAP Screenshot::Capture() {
+HBITMAP Screenshot::Capture()
+{
 	HWND desktop = GetDesktopWindow();
 	HDC hdc = GetDC(desktop);
-	RECT windowRect;
-	GetWindowRect(desktop, &windowRect);
-	int width = windowRect.right;
-	int height = windowRect.bottom;
+
+	DEVMODE mode;
+	EnumDisplaySettings(nullptr, ENUM_CURRENT_SETTINGS, &mode);
+	int width = mode.dmPelsWidth;
+	int height = mode.dmPelsHeight;
 	HDC srcDC = GetDC(desktop);
 	HBITMAP bmp = CreateCompatibleBitmap(srcDC, width, height);
 	HDC destDC = CreateCompatibleDC(srcDC);
@@ -18,7 +19,8 @@ HBITMAP Screenshot::Capture() {
 	return bmp;
 }
 
-void Screenshot::Save(std::string filePath,HBITMAP &data) {
+void Screenshot::Save(std::string filePath, HBITMAP &data)
+{
 	CImage img;
 	img.Attach(data);
 	img.Save(filePath.c_str());
